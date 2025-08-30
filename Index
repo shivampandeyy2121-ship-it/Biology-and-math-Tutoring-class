@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biology & Maths Tuition - Shivam Pandey</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #2e86c1; color: white; padding: 20px; text-align: center; }
+    nav { background: #1b4f72; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 40px; max-width: 900px; margin: auto; }
+    .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    footer { background: #1b4f72; color: white; text-align: center; padding: 15px; }
+    .btn { display: inline-block; background: #2e86c1; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    .btn:hover { background: #21618c; }
+    form input, form select, form textarea { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 5px; }
+    form button { background: #2e86c1; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    form button:hover { background: #21618c; }
+  </style>
+</head>
+<body><header>
+  <h1>Biology & Maths Tuition</h1>
+  <p>By Shivam Pandey (MBBS Student)</p>
+</header><nav>
+  <a href="#about">About Me</a>
+  <a href="#subjects">Subjects</a>
+  <a href="#contact">Contact</a>
+</nav><section id="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p>Hello! I’m Shivam Pandey, a 3rd year MBBS student. I provide tuition for <b>Biology (till 12th)</b> and <b>Maths (till 10th)</b> for Maharashtra Board students. My goal is to make learning simple, exam-focused, and enjoyable.</p>
+  </div>
+</section><section id="subjects">
+  <div class="card">
+    <h2>Subjects I Teach</h2>
+    <ul>
+      <li>Biology – 11th & 12th (Maharashtra Board)</li>
+      <li>Maths – 8th to 10th (Maharashtra Board)</li>
+    </ul>
+    <p>Teaching mode will be <b>online</b>, and <b>offline is available on special request only</b>.</p>
+  </div>
+</section><section id="contact">
+  <div class="card">
+    <h2>Contact Me</h2>
+    <p>If you’re interested in tuition, feel free to reach out:</p>
+    <p><b>Phone/WhatsApp:</b> <a href="tel:+919920526524">+91-9920526524</a></p>
+    <p><b>Email:</b> <a href="mailto:shivampandeyy2121@gmail.com">shivampandeyy2121@gmail.com</a></p>
+    <a href="https://wa.me/919920526524" class="btn">Message on WhatsApp</a><h3>Student Registration Form</h3>
+<form action="mailto:shivampandeyy2121@gmail.com" method="post" enctype="text/plain">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="class">Class:</label>
+  <select id="class" name="class" required>
+    <option value="">Select</option>
+    <option value="8th">8th</option>
+    <option value="9th">9th</option>
+    <option value="10th">10th</option>
+    <option value="11th">11th</option>
+    <option value="12th">12th</option>
+  </select>
+
+  <label for="subject">Subject:</label>
+  <select id="subject" name="subject" required>
+    <option value="">Select</option>
+    <option value="Biology">Biology</option>
+    <option value="Maths">Maths</option>
+  </select>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+
+  </div>
+</section><footer>
+  <p>&copy; 2025 Shivam Pandey | Tuition for Biology & Maths</p>
+</footer></body>
+</html>
